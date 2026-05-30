@@ -13,6 +13,6 @@ public interface StudentService {
     StudentResponseDTO getStudentById(Long id);
 
     StudentResponseDTO updateStudent(Long id, StudentRequestDTO dto);
-//
-//    void deleteStudent(Long id);
+
+    void deleteStudent(Long id);
 }

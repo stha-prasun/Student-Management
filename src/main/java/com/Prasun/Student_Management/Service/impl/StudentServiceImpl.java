@@ -60,4 +60,9 @@ public class StudentServiceImpl implements StudentService {
 
         return mapper.toDTO(updated);
     }
+
+    @Override
+    public void deleteStudent(Long id){
+        repository.deleteById(id);
+    }
 }
